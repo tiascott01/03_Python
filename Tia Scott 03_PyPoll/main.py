@@ -10,7 +10,6 @@ OUTPUT_PATH = os.path.join("Analysis", "analysis.txt")
 total_votes = 0
 candidate_list= []
 votes_for_candidate = {}
-winner = ""
 winnercount = 0
 results = {}
 
