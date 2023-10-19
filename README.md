@@ -24,7 +24,7 @@ You can use these scripts to analyze the data in the corresponding resource CSV.
 
 1. Tutor (PyBank) - Kourt Bailey
 
-2. Office Help (PyPoll) - Kristina D'Alessio
+2. Office Help, Appending Candidates (PyPoll) - Kristina D'Alessio
 
 3. Group Work (PyBank) - Haylee McLean, George Liberatos
 
