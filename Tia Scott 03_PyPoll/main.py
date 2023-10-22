@@ -18,7 +18,7 @@ with open(ELECTION_CSV) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
     #skip the header row
-    next(csvreader)
+    header = next(csvreader)
 
     for row in csvreader:
         #add voter id
