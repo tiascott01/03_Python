@@ -17,7 +17,7 @@ results = {}
 with open(ELECTION_CSV) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
 
-    #skip the header row
+    #Stores the header by skipping the header row
     header = next(csvreader)
 
     for row in csvreader:
