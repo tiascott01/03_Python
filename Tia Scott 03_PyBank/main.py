@@ -19,8 +19,8 @@ is_first_month = True
 #Read CSV
 with open(BUDGET_CSV_PATH) as csvfile:
     csvreader = csv.reader(csvfile)
-    #Skip the first row
-    next(csvreader)
+    #Store the header as a variable and skip the first row
+    header = next(csvreader)
 
     for row in csvreader:
         total_months += 1
