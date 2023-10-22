@@ -19,7 +19,7 @@ is_first_month = True
 #Read CSV
 with open(BUDGET_CSV_PATH) as csvfile:
     csvreader = csv.reader(csvfile)
-    #Store the header by skipping the first row
+    #Store the header row
     header = next(csvreader)
 
     for row in csvreader:
